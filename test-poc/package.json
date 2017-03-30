@@ -1,0 +1,19 @@
+{
+  "name": "protractor-node-angular",
+  "version": "2.0.0",
+  "description": "",
+  "main": "index.html",
+  "author": "cars.com",
+  "license": "Private",
+  "devDependencies": {
+    "jasmine-spec-reporter": "^2.4.0",
+    "protractor": "^3.2.x",
+    "protractor-wrapper": "^1.0.x"
+  },
+  "dependencies": {
+    "cars-config": "^0.1.5"
+  },
+  "scripts": {
+    "e2e-test": "bash node_modules/protractor-wrapper/scripts/run-automation.sh"
+  }
+}

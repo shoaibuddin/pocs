@@ -1,0 +1,51 @@
+{
+    "featureFlags": {
+        "drv": true,
+        "trailHead": 100,
+        "enhancedSpecialOffers": true,
+        "newSVCTA": true,
+        "testing": true,
+        "photoModalViewerAd": true,
+        "newCaptiveSrpHeader": true,
+        "service": {
+            "toNewSAS": true
+        },
+        "externalVDPLink": true
+    },
+    "properties": {
+        "windshield": {
+            "windshield": {
+                "server": {
+                    "port": 1337,
+                    "uriContext": "/windshield"
+                }
+            },
+            "services": {
+                "host": "http://services.cars.com",
+                "mdisContext": "/MDIService/1.0/rest",
+                "mvisContext": "/mvis/2.0/rest",
+                "mediaInquiryPath": "/MediaInquiryService/1.0/rest/media",
+                "gmsContext": "/gms/1.0/rest",
+                "srgsContext": "/SRGS/1.0/rest",
+                "urlTranslateContext": "/UrlTranslateService/1.0/rest"
+            },
+            "composite": {
+                "host": "http://composite.cars.com",
+                "agsContext": "/ServiceEstimatorAGS/1.0/rest"
+            },
+            "www": {
+                "host": "https://www.cars.com"
+            },
+            "owcs": {
+                "host": "http://content.cars.com",
+                "cache": true,
+                "cacheHost": "http://www-cache-proxy.cars.com",
+                "satellitePath": "/cs/Satellite",
+                "jsonFeedPagename": "JSONFeedGenerator"
+            },
+            "liquidPixels": {
+                "host": "https://www.cstatic-images.com"
+            }
+        }
+    }
+}
